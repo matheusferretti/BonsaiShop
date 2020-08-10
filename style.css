@@ -1,0 +1,63 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+h3{
+    color: rgb(113, 112, 114);
+    margin: 5px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px lightgrey solid;
+}
+
+.post-header2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-header1 > p{
+    margin: 20px;
+}
+
+.post-header2 > p{
+    margin: 20px;
+}
+
+.shopping1{
+    margin: 20px;
+    display: flex;
+}
+
+.bonsais{
+    display: grid;
+}
+
+.bonsai1{
+    margin: auto;
+}
+
+.bonsai1 > img{
+    margin: 20px;
+    height: 500px;
+}
+
+.bonsai2 > img{
+    margin: 20px;
+    height: 148px;
+}
+
+.price-description{
+    float: right;
+}
+
+.post-price-description1{
+    border-bottom: 2px lightgrey solid;
+}
