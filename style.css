@@ -32,32 +32,45 @@ h3{
 }
 
 .shopping1{
-    margin: 20px;
+    margin: 15px;
     display: flex;
 }
 
 .bonsais{
     display: grid;
-}
-
-.bonsai1{
-    margin: auto;
+    grid-template-columns: 1fr;
 }
 
 .bonsai1 > img{
     margin: 20px;
-    height: 500px;
+    height: 460px;
+}
+
+.bonsai2{
+    margin: 10px;
 }
 
 .bonsai2 > img{
-    margin: 20px;
-    height: 148px;
-}
-
-.price-description{
-    float: right;
+    margin: 12px;
+    height: 140px;
 }
 
 .post-price-description1{
     border-bottom: 2px lightgrey solid;
+}
+
+.shopping2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.button {
+  background-color:#555555; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
